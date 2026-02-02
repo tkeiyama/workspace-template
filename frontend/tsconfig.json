@@ -1,0 +1,13 @@
+{
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "**/node_modules"
+  ],
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "module": "esnext"
+  }
+}
