@@ -14,3 +14,6 @@ RUN sh ./scripts/install-go.sh
 ENV PATH=$PATH:/usr/local/go/bin
 
 RUN sh ./scripts/install-gopls.sh
+
+RUN sh ./scripts/install-nodejs.sh
+ENV PATH=$PATH:/usr/local/nodejs/bin
