@@ -1,0 +1,8 @@
+name: claude-code-devcontainer
+
+services:
+  workspace:
+    build: .
+    volumes:
+      - ..:/workspace
+    tty: true
