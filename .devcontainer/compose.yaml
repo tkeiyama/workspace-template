@@ -1,4 +1,4 @@
-name: claude-code-devcontainer
+name: workspace-template
 
 services:
   workspace:

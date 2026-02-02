@@ -1,1 +1,1 @@
-# claude-code-devcontainer
+# workspace-template
