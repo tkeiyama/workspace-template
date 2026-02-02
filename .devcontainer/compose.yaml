@@ -5,4 +5,11 @@ services:
     build: .
     volumes:
       - ..:/workspace
+      - claude-code-config:/root/.claude
     tty: true
+    environment:
+      - CLAUDE_CONFIG_DIR=/root/.claude
+
+volumes:
+  claude-code-config:
+    name: claude-code-config
