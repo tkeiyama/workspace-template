@@ -12,3 +12,5 @@ ENV PATH=$PATH:/root/.local/bin
 
 RUN sh ./scripts/install-go.sh
 ENV PATH=$PATH:/usr/local/go/bin
+
+RUN sh ./scripts/install-gopls.sh
