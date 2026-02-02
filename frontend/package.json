@@ -1,3 +1,6 @@
 {
-  "name": "@workspace-template/frontend"
+  "name": "@workspace-template/frontend",
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
 }
