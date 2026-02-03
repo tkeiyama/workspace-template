@@ -3,7 +3,8 @@
   "scripts": {
     "lint": "oxlint --config .oxlintrc.json --tsconfig tsconfig.json --fix --deny-warnings",
     "format": "oxfmt --config .oxfmtrc.json --write",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepare": "cd .. && husky frontend/.husky"
   },
   "devDependencies": {
     "husky": "9.1.7",
