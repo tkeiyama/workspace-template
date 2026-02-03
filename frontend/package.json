@@ -2,6 +2,7 @@
   "name": "@workspace-template/frontend",
   "scripts": {
     "lint": "oxlint --config .oxlintrc.json --tsconfig tsconfig.json --fix --deny-warnings",
+    "format": "oxfmt --config .oxfmtrc.json --write",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
