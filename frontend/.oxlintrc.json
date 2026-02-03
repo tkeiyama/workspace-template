@@ -49,7 +49,5 @@
     "builtin": true
   },
   "globals": {},
-  "ignorePatterns": [
-    "**/node_modules"
-  ]
+  "ignorePatterns": ["**/node_modules"]
 }
