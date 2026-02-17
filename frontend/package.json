@@ -2,7 +2,9 @@
   "name": "@workspace-template/frontend",
   "scripts": {
     "dev": "node main.ts",
-    "lint": "oxlint --config .oxlintrc.json --tsconfig tsconfig.json --fix --deny-warnings",
+    "lint": "oxlint --config .oxlintrc.json --tsconfig tsconfig.json --deny-warnings",
+    "lint:check": "pnpm lint",
+    "lint:fix": "pnpm lint --fix",
     "format": "oxfmt --config .oxfmtrc.json --write",
     "typecheck": "tsc --noEmit",
     "prepare": "cd .. && husky frontend/.husky"
