@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "node main.ts",
     "check": "pnpm lint:check && pnpm format:check",
+    "fix": "pnpm lint:fix && pnpm format:fix",
     "lint": "oxlint --config .oxlintrc.json --tsconfig tsconfig.json --deny-warnings",
     "lint:check": "pnpm lint",
     "lint:fix": "pnpm lint --fix",
