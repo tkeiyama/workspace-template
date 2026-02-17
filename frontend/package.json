@@ -5,7 +5,9 @@
     "lint": "oxlint --config .oxlintrc.json --tsconfig tsconfig.json --deny-warnings",
     "lint:check": "pnpm lint",
     "lint:fix": "pnpm lint --fix",
-    "format": "oxfmt --config .oxfmtrc.json --write",
+    "format": "oxfmt --config .oxfmtrc.json",
+    "format:check": "pnpm format --check",
+    "format:fix": "pnpm format --write",
     "typecheck": "tsc --noEmit",
     "prepare": "cd .. && husky frontend/.husky"
   },
