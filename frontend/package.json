@@ -2,6 +2,7 @@
   "name": "@workspace-template/frontend",
   "scripts": {
     "dev": "node main.ts",
+    "check": "pnpm lint:check && pnpm format:check",
     "lint": "oxlint --config .oxlintrc.json --tsconfig tsconfig.json --deny-warnings",
     "lint:check": "pnpm lint",
     "lint:fix": "pnpm lint --fix",
