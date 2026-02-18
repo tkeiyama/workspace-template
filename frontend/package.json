@@ -1,5 +1,6 @@
 {
   "name": "@workspace-template/frontend",
+  "type": "module",
   "scripts": {
     "dev": "node main.ts",
     "check": "pnpm lint:check && pnpm format:check",
