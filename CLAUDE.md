@@ -17,10 +17,14 @@ When asked to implement something, provide guidance on *how* to do it rather tha
 ### Frontend (TypeScript/Node.js)
 All frontend commands run from `frontend/`:
 ```bash
-pnpm dev          # Run the app
-pnpm lint         # Lint with oxlint (auto-fix enabled)
-pnpm format       # Format with oxfmt
-pnpm typecheck    # Type-check with tsc
+pnpm dev            # Run the app
+pnpm check          # Lint + format check (no modifications)
+pnpm fix            # Lint fix + format fix
+pnpm lint           # Lint with oxlint (check only)
+pnpm lint:fix       # Lint with oxlint (auto-fix)
+pnpm format:check   # Check formatting with oxfmt
+pnpm format:fix     # Fix formatting with oxfmt
+pnpm typecheck      # Type-check with tsc
 ```
 
 ### Backend (Go)
