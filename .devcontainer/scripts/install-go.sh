@@ -1,4 +1,4 @@
-VERSION=1.25.6
+VERSION=1.26.0
 OS=linux
 ARCH=arm64
 curl -OL https://go.dev/dl/go${VERSION}.${OS}-${ARCH}.tar.gz
